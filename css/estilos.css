@@ -254,7 +254,7 @@ input, textarea {
   display: flex;
   align-content: flex-start;
   margin: 0 auto;
-  max-width: 1400px;
+  max-width: 1400nopx;
   background-color: grey;
   color: white;
   padding-bottom: 30px;
