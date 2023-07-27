@@ -1,0 +1,25 @@
+.skills {
+    display: flex;
+    justify-content: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    color: white;
+    background-color: grey;
+    .skills__titulo {
+        display: flex;
+        font-family: "Times New Roman", Times, serif;
+        font-style: italic;
+        font-size: 30px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        color: white;
+        margin-right: 200px;
+    }
+    .skills__contenido {
+        margin: 60px;
+        list-style: circle;
+        .skills__contenido_li {
+            margin-bottom: 20px;
+        }
+    }
+}

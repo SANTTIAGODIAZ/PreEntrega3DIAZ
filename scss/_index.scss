@@ -1,0 +1,14 @@
+.principal {
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+    justify-content: space-between;
+    .principal__contenido {
+        display: flex;
+        max-width: 1400px;
+        img {
+            width: 350px;
+            height: 350px;
+        }
+    }
+}

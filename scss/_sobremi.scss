@@ -1,0 +1,27 @@
+.sobremi {
+    background-color: grey;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    .sobremi__contenido-h2 {
+        font-family: "Times New Roman", Times, serif;
+        font-style: italic;
+        font-size: 40px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        color: white;
+    }
+    .sobremi__contenido-p {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        color: white;
+        text-align: justify;
+    }
+}

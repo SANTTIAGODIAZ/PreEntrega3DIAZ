@@ -1,0 +1,43 @@
+.proyectos {
+    display: flex;
+    align-content: flex-start;
+    margin: 0 auto;
+    max-width: 1400px;
+    background-color: grey;
+    color: white;
+    padding-bottom: 30px;
+    .proyectos__contenido{
+        .proyectos__contenido-h2 {
+            font-family: "Times New Roman", Times, serif;
+            font-style: italic;
+            font-size: 40px;
+            margin-left: 5px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+        .proyectos__contenido-h3 {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 30px;
+            margin: 20px;
+        }
+        .proyectos__contenido-p {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 20px;
+            color: white;
+            text-align: justify;
+            width: 700px;
+            margin: 20px;
+        }
+    }
+    .proyectos__img {
+        margin: 0 auto;
+        max-width: 1200px;
+        align-content: center;
+        align-items: center;
+        .proyectos__img-img {
+            width: 300px;
+            height: 300px;
+            margin-top: 50px;
+        }
+    }
+}

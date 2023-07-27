@@ -1,0 +1,46 @@
+.contacto {
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: grey;
+    color: white;
+    .contacto__titulo {
+        font-family: "Times New Roman", Times, serif;
+        font-style: italic;
+        font-size: 40px;
+        margin-left: 80px;
+        margin-bottom: 10px;
+        padding-top: 10px;
+    }
+    .contacto__contenido {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: grey;
+        .contacto__contenido-div {
+            display: flex;
+            flex-direction: column;
+            text-align: right;
+            background-color: grey;
+            label {
+                font-size: 20px;
+                font-weight: 600;
+                margin-bottom: 15px;
+                text-align: center;
+            }
+            input, textarea {
+                padding: 7px 15px;
+                margin-bottom: 20px;
+                background-color: white;
+                border: 2px solid black;
+                color: black;
+            }
+        }
+    }
+    .contacto__subtitulo {
+        background-color: grey;
+        text-align: center;
+        padding: 20px;
+        font-family: "Times New Roman", Times, serif;
+    }
+}

@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    background-color: black;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    .header__titulo{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        justify-content: center;
+        background-color: black;
+        color: white;
+        max-width: 1200px;
+        font-family: "Times New Roman", Times, serif;
+        font-weight: 200;
+        margin-right: 800px;
+        h2{
+            margin-top: 10px;
+            color: #D4AF37
+        }
+    }
+    .header__logo{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        max-width: 1200px;
+        .header__logo-a{
+            img{
+                width: 150px;
+                height: 150px;
+            }
+        }
+        
+    }
+}
